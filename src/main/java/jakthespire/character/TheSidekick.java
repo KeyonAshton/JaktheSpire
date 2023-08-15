@@ -21,10 +21,10 @@ import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import jakthespire.JakTheSpire;
-import jakthespire.cards.GreenEcoCard;
-import jakthespire.cards.Punch;
-import jakthespire.relics.GreenEco;
-import jakthespire.cards.SpinKick;
+import jakthespire.cards.eco.GreenEcoCard;
+import jakthespire.cards.attacks.Punch;
+import jakthespire.relics.SidekickRelic;
+import jakthespire.cards.attacks.SpinKick;
 
 import java.util.ArrayList;
 
@@ -110,7 +110,7 @@ public class TheSidekick extends CustomPlayer {
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
         //IDs of starting relics. You can have multiple, but one is recommended.
-        retVal.add(GreenEco.ID);
+        retVal.add(SidekickRelic.ID);
 
         return retVal;
     }

@@ -1,36 +1,36 @@
-# Basic Mod
+# Jak the Spire
 
-This is an empty Slay the Spire mod + a modding tutorial.
 
-This tutorial will help with setup and the basics of Slay the Spire modding, but it will not teach you Java. If you know nothing of Java or programming in general, you are strongly recommended to look up a free online course and do at least some of it. It is possible to do modding with almost no proper knowledge, but it will make things much more difficult.
 
 ---
 
-## Check the wiki to get started:
+## Current Features:
 
-https://github.com/Alchyr/BasicMod/wiki
-
----
-
-## Know what you're doing?
-
-You can still use this mod as a base, or you could use another template like https://github.com/DarkVexon/ProTemplate
-
-You can find more options in the pins of the #modding-technical channel in the Slay the Spire discord server.
+As of right now, I only have the basis of a starter relic, the green eco not quite working right, 2 attack cards, and the green eco card.
+I am currently trying to learn how to actually make the things while I work on planning everything out.
 
 ---
 
-### Some HD Slay the Spire art assets (courtesy of Gremious, creator of DefaultMod):
+## Planned Features:
 
-Includes:
-- Empty Relic Template feat. empty bottle
-- Empty Card Template
-- Color-Changable cardback
-- A couple of HD Monster vectors (Louse, Nob, Sentry, Sneaky Gremlin)
-- A coupe of HD items (J.A.X., A Coin)
-- 2 people silhouettes
-- A curse Background
+Everything stated in Planned Features are subject to heavy balancing before, during, and after creation. They are "Planned" for a reason.
 
-https://github.com/Gremious/StS-DefaultModBase#some-hd-slay-the-spire-art-assets
+As this mod is just getting started, the planned features list is too long for just here, so I will have a basic list and a link to an explanation of each.
+* [Jak and Daxter as separate Characters](PlannedFeatures/Characters.md)
+* [6 types of Eco](PlannedFeatures/Ecos.md)
+* [Zoomers](PlannedFeatures/Zoomers.md)
+* [Jet Board](PlannedFeatures/JetBoard.md)
+* [4 - 8 Guns](PlannedFeatures/Guns.md)
+* [Potentially combos](PlannedFeatures/Combos.md)
+
+
+---
+
+### Dependencies and Credits:
+
+* [BaseMod](https://steamcommunity.com/sharedfiles/filedetails/?id=1605833019)
+* [StSLib](https://steamcommunity.com/sharedfiles/filedetails/?id=1609158507)
+* [ModTheSpire](https://steamcommunity.com/sharedfiles/filedetails/?id=1605060445)
+* [SlayTheSpire discord](https://discord.com/invite/SlayTheSpire)
 
 ---

@@ -1,22 +1,19 @@
-package jakthespire.cards;
+package jakthespire.cards.attacks;
 
-import com.evacipated.cardcrawl.mod.stslib.patches.DamageModifierPatches;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.helpers.EnemyData;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import jakthespire.cards.BaseCard;
 import jakthespire.character.TheSidekick;
-import jakthespire.powers.GreenEcoVentPower;
+import jakthespire.powers.eco.YellowEcoPower;
 import jakthespire.util.CardStats;
 
-public class SpinKick extends BaseCard{
+public class SpinKick extends BaseCard {
 
     public static final String ID = makeID(SpinKick.class.getSimpleName());
     private static final CardStats info = new CardStats(
@@ -49,7 +46,7 @@ public class SpinKick extends BaseCard{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         DamageInfo.DamageType dmgtype;
-        if (p.hasPower(GreenEcoVentPower.POWER_ID)) {
+        if (p.hasPower(YellowEcoPower.POWER_ID)) {
             dmgtype = this.damageTypeForTurn;
         } else {
             dmgtype = DamageInfo.DamageType.THORNS;

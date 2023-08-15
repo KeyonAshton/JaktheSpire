@@ -1,4 +1,4 @@
-package jakthespire.cards;
+package jakthespire.cards.attacks;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -10,11 +10,12 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import jakthespire.cards.BaseCard;
 import jakthespire.character.TheSidekick;
-import jakthespire.powers.GreenEcoVentPower;
+import jakthespire.powers.eco.YellowEcoPower;
 import jakthespire.util.CardStats;
 
-public class Punch extends BaseCard{
+public class Punch extends BaseCard {
 
     public static final String ID = makeID(Punch.class.getSimpleName());
     private static final CardStats info = new CardStats(
@@ -42,7 +43,7 @@ public class Punch extends BaseCard{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (p.hasPower(GreenEcoVentPower.POWER_ID)) {
+        if (p.hasPower(YellowEcoPower.POWER_ID)) {
             if (Settings.isDebug) {
                 if (Settings.isInfo) {
                     this.multiDamage = new int[(AbstractDungeon.getCurrRoom()).monsters.monsters.size()];

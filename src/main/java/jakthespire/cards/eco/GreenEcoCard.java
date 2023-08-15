@@ -1,4 +1,4 @@
-package jakthespire.cards;
+package jakthespire.cards.eco;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -7,13 +7,14 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import jakthespire.cards.BaseCard;
 import jakthespire.character.TheSidekick;
-import jakthespire.powers.GreenEcoVentPower;
+import jakthespire.powers.eco.GreenVentPower;
 import jakthespire.util.CardStats;
 
 import static jakthespire.helpers.CustomTags.TAG_GREEN_ECO;
 
-public class GreenEcoCard extends BaseCard{
+public class GreenEcoCard extends BaseCard {
 
     public static final String ID = makeID(GreenEcoCard.class.getSimpleName());
     private static final CardStats info = new CardStats(
@@ -64,7 +65,7 @@ public class GreenEcoCard extends BaseCard{
     @Override
     public void use(AbstractPlayer p, AbstractMonster abstractMonster) {
         if (timesUpgraded > 2) {
-            addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new GreenEcoVentPower((AbstractCreature)p, 1), 1));
+            addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new GreenVentPower((AbstractCreature)p, 1), 1));
         }
     }
 

@@ -13,10 +13,10 @@
   },
   "${modID}:Punch": {
     "NAME": "Punch",
-    "DESCRIPTION": "Deal !D! damage. NL [#ff0000]Red Eco[] bypasses *Thorns"
+    "DESCRIPTION": "Deal !D! damage. NL [#ffff00]Yellow Eco[] bypasses *Thorns"
   },
   "${modID}:SpinKick": {
     "NAME": "Spin Kick",
-    "DESCRIPTION": "Deal !D! damage to !M! random enemies NL [#ff0000]Red Eco[] bypasses *Thorns"
+    "DESCRIPTION": "Deal !D! damage to !M! random enemies NL [#ffff00]Yellow Eco[] bypasses *Thorns"
   }
 }

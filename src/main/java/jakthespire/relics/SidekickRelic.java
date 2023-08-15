@@ -14,7 +14,7 @@ import static jakthespire.JakTheSpire.logger;
 import static jakthespire.JakTheSpire.makeID;
 import static jakthespire.helpers.CustomTags.TAG_GREEN_ECO;
 
-public class GreenEco extends BaseRelic{
+public class SidekickRelic extends BaseRelic{
     private static final String NAME = "GreenEco"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic
     private static final RelicTier RARITY = RelicTier.STARTER; //The relic's rarity.
@@ -24,7 +24,7 @@ public class GreenEco extends BaseRelic{
     private static final int DMG = 16; //The fraction of health green eco will heal.
     private static final int DMGLOSS = (DMG - 1) / DMG; //Fraction needed for math's.
 
-    public GreenEco() {
+    public SidekickRelic() {
         super(ID, NAME, TheSidekick.Enums.CARD_COLOR, RARITY, SOUND);
     }
 
