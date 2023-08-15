@@ -1,0 +1,114 @@
+[
+  {
+    "PROPER_NAME": "Eco",
+    "NAMES": [
+      "Eco",
+      "eco"
+    ],
+    "DESCRIPTION": "The life energy of the world. Provides some of one of the colors."
+  },
+  {
+    "PROPER_NAME": "Green Eco",
+    "NAMES": [
+      "Green Eco",
+      "green eco",
+      "Green Ecos",
+      "green ecos",
+      "Green_Eco",
+      "green_eco",
+      "Green_Ecos",
+      "green_ecos"
+    ],
+    "DESCRIPTION": "Pick up 50 small [#00ff00]green [#00ff00]ecos, or one big green one, to increase your health."
+  },
+  {
+    "PROPER_NAME": "Red Eco",
+    "NAMES": [
+      "Red Eco",
+      "red eco",
+      "Red Ecos",
+      "red ecos",
+      "Red_Eco",
+      "red_eco",
+      "Red_Ecos",
+      "red_ecos"
+    ],
+    "DESCRIPTION": "Red Eco makes your attack stronger. NL It will modify most attacks in some way"
+  },
+  {
+    "PROPER_NAME": "Blue Eco",
+    "NAMES": [
+      "Blue Eco",
+      "blue eco",
+      "Blue Ecos",
+      "blue ecos",
+      "Blue_Eco",
+      "blue_eco",
+      "Blue_Ecos",
+      "blue_ecos"
+    ],
+    "DESCRIPTION": "Mainly provides [E] each turn, can buff some cards. NL [#777777]Blue eco allows you to run fast, break boxes, and even activate some Precursor artifacts when you get near to them[]."
+  },
+  {
+    "PROPER_NAME": "Yellow Eco",
+    "NAMES": [
+      "Yellow Eco",
+      "yellow eco",
+      "Yellow Ecos",
+      "yellow ecos",
+      "Yellow_Eco",
+      "yellow_eco",
+      "Yellow_Ecos",
+      "yellow_ecos"
+    ],
+    "DESCRIPTION": "Red Eco makes your attack stronger. NL It will modify most attacks in some way"
+  },
+  {
+    "PROPER_NAME": "Dark Eco",
+    "NAMES": [
+      "Dark Eco",
+      "dark eco",
+      "Dark Ecos",
+      "dark ecos",
+      "Dark_Eco",
+      "dark_eco",
+      "Dark_Ecos",
+      "dark_ecos"
+    ],
+    "DESCRIPTION": "Red Eco makes your attack stronger. NL It will modify most attacks in some way"
+  },
+  {
+    "PROPER_NAME": "Light Eco",
+    "NAMES": [
+      "Light Eco",
+      "light eco",
+      "Light Ecos",
+      "light ecos",
+      "Light_Eco",
+      "light_eco",
+      "Light_Ecos",
+      "light_ecos"
+    ],
+    "DESCRIPTION": "Red Eco makes your attack stronger. NL It will modify most attacks in some way"
+  },
+  {
+    "PROPER_NAME": "Eco Vent",
+    "NAMES": [
+      "Eco Vent",
+      "Eco_Vent",
+      "eco vent",
+      "eco_vent"
+    ],
+    "DESCRIPTION": "Provides a steady stream of eco. Can only stand on 1 vent at a time."
+  },
+  {
+    "PROPER_NAME": "Upgrades Remaining",
+    "NAMES": [
+      "Upgrades Remaining",
+      "Upgrades_Remaining",
+      "upgrades remaining",
+      "upgrades_remaining"
+    ],
+    "DESCRIPTION": "How many more times this card can be upgraded."
+  }
+]

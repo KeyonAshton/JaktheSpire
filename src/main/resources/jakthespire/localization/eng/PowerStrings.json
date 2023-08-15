@@ -1,0 +1,38 @@
+{
+  "${modID}:GreenEcoVentPower": {
+    "NAME": "[#00ff00]Green [#00ff00]Eco Vent",
+    "DESCRIPTIONS": [
+      "Provides a steady stream of [#00ff00]Green [#00ff00]Eco. NL Standing on another vent will take you off this one."
+    ]
+  },
+  "${modID}:RedEcoVentPower": {
+    "NAME": "[#ff0000]Red [#ff0000]Eco Vent",
+    "DESCRIPTIONS": [
+      "Provides a steady stream of [#ff0000]Red [#ff0000]Eco. NL Standing on another vent will take you off this one."
+    ]
+  },
+  "${modID}:BlueEcoVentPower": {
+    "NAME": "[#0000ff]Blue [#0000ff]Eco Vent",
+    "DESCRIPTIONS": [
+      "Provides a steady stream of [#0000ff]Blue [#0000ff]Eco. NL Standing on another vent will take you off this one."
+    ]
+  },
+  "${modID}:YellowEcoVentPower": {
+    "NAME": "[#ffff00]Yellow [#ffff00]Eco Vent",
+    "DESCRIPTIONS": [
+      "Provides a steady stream of [#ffff00]Yellow [#ffff00]Eco. NL Standing on another vent will take you off this one."
+    ]
+  },
+  "${modID}:DarkEcoVentPower": {
+    "NAME": "[#32004b]Dark [#32004b]Eco Vent",
+    "DESCRIPTIONS": [
+      "Provides a steady stream of [#32004b]Dark [#32004b]Eco. NL Standing on another vent will take you off this one."
+    ]
+  },
+  "${modID}:LightEcoVentPower": {
+    "NAME": "[#ffffff]Light [#ffffff]Eco Vent",
+    "DESCRIPTIONS": [
+      "Provides a steady stream of [#ffffff]Light [#ffffff]Eco. NL Standing on another vent will take you off this one."
+    ]
+  }
+}

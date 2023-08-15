@@ -1,0 +1,9 @@
+{
+  "${modID}:GreenEco": {
+    "NAME": "Green Eco",
+    "FLAVOR": "A regenerative eco, supplying health to life.",
+    "DESCRIPTIONS": [
+      "Pick up #b%d small [#00ff00]green [#00ff00]ecos, or one big green one, to increase your health."
+    ]
+  }
+}
