@@ -1,0 +1,170 @@
+[
+  {
+    "PROPER_NAME": "Eco",
+    "NAMES": [
+      "Eco",
+      "eco"
+    ],
+    "DESCRIPTION": "Provides a little of one of the colors NL \"The life energy of the world\""
+  },
+  {
+    "PROPER_NAME": "Green Eco",
+    "NAMES": [
+      "Green Eco",
+      "green eco",
+      "Green Ecos",
+      "green ecos",
+      "Green_Eco",
+      "green_eco",
+      "Green_Ecos",
+      "green_ecos"
+    ],
+    "DESCRIPTION": "\"Pick up 50 small [#00ff00]green [#00ff00]ecos, or one big green one, to increase your health\""
+  },
+  {
+    "PROPER_NAME": "Red Eco",
+    "NAMES": [
+      "Red Eco",
+      "red eco",
+      "Red Ecos",
+      "red ecos",
+      "Red_Eco",
+      "red_eco",
+      "Red_Ecos",
+      "red_ecos"
+    ],
+    "DESCRIPTION": "[#ff0000]Red [#ff0000]Eco will give you temporary #yStrength NL \"Red Eco makes your attack stronger\""
+  },
+  {
+    "PROPER_NAME": "Blue Eco",
+    "NAMES": [
+      "Blue Eco",
+      "blue eco",
+      "Blue Ecos",
+      "blue ecos",
+      "Blue_Eco",
+      "blue_eco",
+      "Blue_Ecos",
+      "blue_ecos"
+    ],
+    "DESCRIPTION": "Provides [E] each turn NL \"[#0000ff]Blue [#0000ff]eco allows you to run fast, break boxes, and even activate some Precursor artifacts when you get near to them\""
+  },
+  {
+    "PROPER_NAME": "Yellow Eco",
+    "NAMES": [
+      "Yellow Eco",
+      "yellow eco",
+      "Yellow Ecos",
+      "yellow ecos",
+      "Yellow_Eco",
+      "yellow_eco",
+      "Yellow_Ecos",
+      "yellow_ecos"
+    ],
+    "DESCRIPTION": "[#ffff00]Yellow [#ffff00]Eco will modify most attacks in some way NL \"You can shoot fireballs when you're powered up with yellow eco\""
+  },
+  {
+    "PROPER_NAME": "Dark Eco",
+    "NAMES": [
+      "Dark Eco",
+      "dark eco",
+      "Dark Ecos",
+      "dark ecos",
+      "Dark_Eco",
+      "dark_eco",
+      "Dark_Ecos",
+      "dark_ecos"
+    ],
+    "DESCRIPTION": "[#500064]Dark [#500064]Eco can be used to activate [#500064]Dark [#500064]Form NL \"You should at least be dead with all the dark eco I've pumped into you!\""
+  },
+  {
+    "PROPER_NAME": "Dark Form",
+    "NAMES": [
+      "Dark Form",
+      "dark form",
+      "Dark_Form",
+      "dark_form"
+    ],
+    "DESCRIPTION": "Decreases damage by half, and gives access to high damage attacks"
+  },
+  {
+    "PROPER_NAME": "Light Eco",
+    "NAMES": [
+      "Light Eco",
+      "light eco",
+      "Light Ecos",
+      "light ecos",
+      "Light_Eco",
+      "light_eco",
+      "Light_Ecos",
+      "light_ecos"
+    ],
+    "DESCRIPTION": "[#82dcdc]Light [#82dcdc]Eco can be used to activate Light form, giving access to high powered defensive abilities NL Using guns decreases Light Eco while in Light form"
+  },
+  {
+    "PROPER_NAME": "Light Form",
+    "NAMES": [
+      "Light Form",
+      "light form",
+      "Light_Form",
+      "light_form"
+    ],
+    "DESCRIPTION": "Gives access to high defense skills NL Guns decrease [#82dcdc]Light [#82dcdc]Eco while in this form"
+  },
+  {
+    "PROPER_NAME": "Eco Vent",
+    "NAMES": [
+      "Eco Vent",
+      "Eco_Vent",
+      "eco vent",
+      "eco_vent"
+    ],
+    "DESCRIPTION": "Provides a steady stream of eco Can only stand on 1 vent at a time"
+  },
+  {
+    "PROPER_NAME": "Upgrades",
+    "NAMES": [
+      "Upgrades",
+      "upgrades"
+    ],
+    "DESCRIPTION": "How many more times this card can be upgraded NL Not all upgrades are better, each one is situational"
+  },
+  {
+    "PROPER_NAME": "Combo",
+    "NAMES": [
+      "Combo",
+      "combo"
+    ],
+    "DESCRIPTION": "This card changes based on previously played #yCombo cards"
+  },
+  {
+    "PROPER_NAME": "Zoomer",
+    "NAMES": [
+      "Zoomer",
+      "zoomer",
+      "Zoomers",
+      "zoomers"
+    ],
+    "DESCRIPTION": "Provides #yBlock per turn equal to #yZoomer HP NL HP decreases on unblocked damage received NL Explodes when hp hits 0 NL Smaller ones have chance to negate damage"
+  },
+  {
+    "PROPER_NAME": "Jet Board",
+    "NAMES": [
+      "Jet Board",
+      "jet board",
+      "Jet_Board",
+      "jet_board"
+    ],
+    "DESCRIPTION": "Has a small chance to negate attacks NL Take extra damage on hit, and dismount the Jet Board"
+  },
+  {
+    "PROPER_NAME": "Morph Gun",
+    "NAMES": [
+      "Morph Gun",
+      "morph gun",
+      "Morph_Gun",
+      "morph_gun"
+    ],
+    "DESCRIPTION": "There are 4 Modes NL Use #yFire to activate NL Requires #yAmmo to fire"
+  }
+]

@@ -59,3 +59,32 @@ I also plan on having each eco in 2 types:
 
 ---
 
+## Dark Eco
+
+* Slower buildup than Green Eco
+* Might require killing monsters to add to charge
+* Relic keeps track of eco amount
+* Requires a card to activate Dark Jak form
+* Decreases all damage by half
+* Can't use guns, jet board, or zoomers
+* Can't use when on a jet board or zoomer
+* Puts gun away/removes gun when activated
+* Has very powerful attacks, might require combos
+* Stops other Eco gain
+* Clears other Eco out (except amount in relic)
+
+---
+
+## Light Eco
+
+* Slower buildup than Green Eco
+* Might require killing monsters to add to charge
+* Relic keeps track of eco amount
+* Requires a card to activate Light Jak form
+* Can't use jet board, or zoomers
+* Can't use when on a jet board or zoomer
+* Using guns drains Light Eco per attack
+* Mostly defensive in nature
+* Might be able to heal
+* Stops other Eco gain
+* Clears other Eco out (except amount in relic)

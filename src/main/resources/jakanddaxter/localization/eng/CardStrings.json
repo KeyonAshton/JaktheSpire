@@ -1,0 +1,79 @@
+{
+  "${modID}:GreenEcoCard": {
+    "NAME": "Small [#00ff00]Green [#00ff00]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! small [#00ff00]Green [#00ff00]Eco. NL ${modID}:Upgrades 3",
+    "EXTENDED_DESCRIPTION": [
+      "More Little [#00ff00]Green [#00ff00]Eco",
+      "${modID}:Eco NL Supplies !M! small [#00ff00]Green [#00ff00]Eco. NL ${modID}:Upgrades 2",
+      "A Big [#00ff00]Green [#00ff00]Eco",
+      "${modID}:Eco NL Supplies 1 big [#00ff00]Green [#00ff00]Eco. NL ${modID}:Upgrades 1",
+      "[#00ff00]Green [#00ff00]Eco Vent",
+      "${modID}:Eco_Vent NL Stand atop a [#00ff00]Green [#00ff00]Eco vent"
+      ]
+  },
+  "${modID}:RedEcoCard": {
+    "NAME": "Some [#ff0000]Red [#ff0000]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco. NL ${modID}:Upgrades 2",
+    "EXTENDED_DESCRIPTION": [
+      "More [#ff0000]Red [#ff0000]Eco",
+      "${modID}:Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco. NL ${modID}:Upgrades 1",
+      "[#ff0000]Red [#ff0000]Eco Vent",
+      "${modID}:Eco_Vent NL Stand atop a [#ff0000]Red [#ff0000]Eco vent"
+    ]
+  },
+  "${modID}:BlueEcoCard": {
+    "NAME": "Some [#0000ff]Blue [#0000ff]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco. NL ${modID}:Upgrades 2",
+    "EXTENDED_DESCRIPTION": [
+      "More [#0000ff]Blue [#ff0000]Eco",
+      "${modID}:Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco. NL ${modID}:Upgrades 1",
+      "[#0000ff]Blue [#0000ff]Eco Vent",
+      "${modID}:Eco_Vent NL Stand atop a [#0000ff]Blue [#0000ff]Eco vent"
+    ]
+  },
+  "${modID}:YellowEcoCard": {
+    "NAME": "Some [#ffff00]Yellow [#ffff00]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco. NL ${modID}:Upgrades 2",
+    "EXTENDED_DESCRIPTION": [
+      "More [#ffff00]Yellow [#ffff00]Eco",
+      "${modID}:Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco. NL ${modID}:Upgrades 1",
+      "[#ffff00]Yellow [#ffff00]Eco Vent",
+      "${modID}:Eco_Vent NL Stand atop a [#ffff00]Yellow [#ffff00]Eco vent"
+    ]
+  },
+  "${modID}:Punch": {
+    "NAME": "Punch",
+    "DESCRIPTION": "${modID}:Combo NL Deal !D! damage.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Play *Ground *Slam",
+      " NL Play *Uppercut"
+    ]
+  },
+  "${modID}:SpinKick": {
+    "NAME": "Spin Kick",
+    "DESCRIPTION": "Deal !D! damage to !M! random enemies"
+  },
+  "${modID}:Roll": {
+    "NAME": "Roll",
+    "DESCRIPTION": "${modID}:Combo NL Gain !B! *Block"
+  },
+  "${modID}:GroundSlam": {
+    "NAME": "Ground Slam",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Uppercut": {
+    "NAME": "Uppercut",
+    "DESCRIPTION": "${modID}:Combo NL Deal !D! damage."
+  },
+  "${modID}:Jump": {
+    "NAME": "Jump",
+    "DESCRIPTION": "${modID}:Combo NL Gain !B! *Block",
+    "EXTENDED_DESCRIPTION": [
+      "Double Jump",
+      " NL Gain an additional !M! *Block",
+      "Rolling Jump",
+      " NL Deal !D! to a random enemy",
+      " NL Play *Uppercut on a random enemy"
+    ]
+  }
+}

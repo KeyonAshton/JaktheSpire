@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <modID>jakthespire</modID>
+        <modID>jakanddaxter</modID>
         <author>Keyon Ashton</author>
 
         <!-- Change the path for your system to match your Steam installation. -->
@@ -19,7 +19,7 @@
     </properties>
 
     <!-- This information will be displayed in ModTheSpire, the modded launcher. -->
-    <name>Jak the Spire</name>
+    <name>Jak and Daxter: The Spire of the Precursors</name>
     <version>0.0.0</version>
     <!-- Avoid using \ in this description, as they can cause the description to fail to load. -->
     <!-- If you really want to use them, you'll need to "escape" them by putting another one in front, like \\ -->
