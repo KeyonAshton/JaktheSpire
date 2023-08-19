@@ -2,18 +2,24 @@ package jakanddaxter.relics;
 
 import basemod.BaseMod;
 import basemod.abstracts.CustomSavable;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import jakanddaxter.cards.eco.DarkEcoCard;
+import jakanddaxter.cards.eco.GreenEcoCard;
+import jakanddaxter.cards.eco.LightEcoCard;
 import jakanddaxter.character.TheSidekick;
+import jakanddaxter.powers.eco.DarkEcoPower;
+import jakanddaxter.powers.eco.vent.GreenVentPower;
+import jakanddaxter.powers.eco.LightEcoPower;
 
-import static jakanddaxter.JakandDaxter.logger;
-import static jakanddaxter.JakandDaxter.makeID;
-import static jakanddaxter.helpers.CustomTags.TAG_GREEN_ECO;
+import java.util.ArrayList;
+
+import static jakanddaxter.JakandDaxter.*;
 
 public class SidekickRelic extends BaseRelic implements CustomSavable<int[]> {
     private static final String NAME = "GreenEco"; //The name will be used for determining the image file as well as the ID.
@@ -83,7 +89,7 @@ public class SidekickRelic extends BaseRelic implements CustomSavable<int[]> {
         } else if (lightEcoAmount + count <= 0) {
             lightEcoAmount = 0;
         } else {
-            lightEcoAmount = lightEcoAmount + ECOCOUNT;
+            lightEcoAmount = lightEcoAmount + count;
         }
     }
 
@@ -93,7 +99,7 @@ public class SidekickRelic extends BaseRelic implements CustomSavable<int[]> {
         } else if (darkEcoAmount + count <= 0) {
             darkEcoAmount = 0;
         } else {
-            darkEcoAmount = darkEcoAmount + ECOCOUNT;
+            darkEcoAmount = darkEcoAmount + count;
         }
     }
 
@@ -134,8 +140,38 @@ public class SidekickRelic extends BaseRelic implements CustomSavable<int[]> {
 
     @Override
     public void onUseCard(AbstractCard targetCard, UseCardAction useCardAction) {
-        if (targetCard.hasTag(TAG_GREEN_ECO)) {
+        if (targetCard.cardID.equals(GreenEcoCard.ID)) {
             GreenEcoCount(targetCard.magicNumber);
+        }
+    }
+
+    public void atBattleStart() {
+        super.atBattleStart();
+        ArrayList<AbstractCard> derp = new ArrayList();
+        derp.add(new DarkEcoCard());
+        derp.add(new LightEcoCard());
+        addToBot(new ChooseOneAction(derp));
+        logger.info("Dark Eco: " + darkEcoAmount + " | Light Eco: " + lightEcoAmount);
+    }
+
+    public void onVictory(){
+        super.onVictory();
+        if (AbstractDungeon.player.hasPower(LightEcoPower.POWER_ID)) {
+            LightEcoCount(1);
+        } else if (AbstractDungeon.player.hasPower(DarkEcoPower.POWER_ID)) {
+            DarkEcoCount(1);
+        }
+    }
+
+    public void onEnterRoom(AbstractRoom room) {
+
+    }
+
+    @Override
+    public void atTurnStartPostDraw() {
+        if (AbstractDungeon.player.hasPower(GreenVentPower.POWER_ID)) {
+            this.GreenEcoCount(2);
+            flash();
         }
     }
 

@@ -41,8 +41,7 @@ public class Punch extends BaseCard {
     }
 
     public void triggerWhenDrawn() {
-        boolean h = !AbstractDungeon.actionManager.cardsPlayedThisTurn.isEmpty();
-        if (h) {
+        if (!AbstractDungeon.actionManager.cardsPlayedThisTurn.isEmpty()) {
             String c = (AbstractDungeon.actionManager.cardsPlayedThisTurn.get(AbstractDungeon.actionManager.cardsPlayedThisTurn.size() - 1)).cardID;
             if (c.equals(Jump.ID)) {
                 this.cardsToPreview = new GroundSlam();
@@ -63,6 +62,7 @@ public class Punch extends BaseCard {
             this.cardsToPreview = null;
             rawDescription = cardStrings.DESCRIPTION;
         }
+        initializeDescription();
     }
 
     @Override
@@ -104,12 +104,9 @@ public class Punch extends BaseCard {
                 groundSlam.upgrade();
                 addToTop(new NewQueueCardAction(groundSlam, m, true, true));
             } else if ((AbstractDungeon.actionManager.cardsPlayedThisTurn.get(c)).cardID.equals(Roll.ID)) {
-                addToTop(new NewQueueCardAction(new GroundSlam(), m, true, true));
+                addToTop(new NewQueueCardAction(new Uppercut(), m, true, true));
             }
         }
     }
 
-    public AbstractCard makeCopy() {
-        return new Punch();
-    }
 }

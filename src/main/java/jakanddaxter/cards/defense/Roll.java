@@ -1,7 +1,6 @@
 package jakanddaxter.cards.defense;
 
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import jakanddaxter.cards.BaseCard;
@@ -39,7 +38,4 @@ public class Roll extends BaseCard {
         addToBot(new GainBlockAction(p, p, this.block));
     }
 
-    public AbstractCard makeCopy() {
-        return new Roll();
-    }
 }

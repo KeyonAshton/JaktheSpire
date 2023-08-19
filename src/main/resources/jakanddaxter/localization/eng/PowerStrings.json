@@ -1,38 +1,90 @@
 {
-  "${modID}:GreenEcoVentPower": {
+  "${modID}:GreenVentPower": {
     "NAME": "[#00ff00]Green [#00ff00]Eco Vent",
     "DESCRIPTIONS": [
       "Provides a steady stream of [#00ff00]Green [#00ff00]Eco. NL Standing on another vent will take you off this one."
     ]
   },
-  "${modID}:RedEcoVentPower": {
+  "${modID}:RedVentPower": {
     "NAME": "[#ff0000]Red [#ff0000]Eco Vent",
     "DESCRIPTIONS": [
       "Provides a steady stream of [#ff0000]Red [#ff0000]Eco. NL Standing on another vent will take you off this one."
     ]
   },
-  "${modID}:BlueEcoVentPower": {
+  "${modID}:BlueVentPower": {
     "NAME": "[#0000ff]Blue [#0000ff]Eco Vent",
     "DESCRIPTIONS": [
       "Provides a steady stream of [#0000ff]Blue [#0000ff]Eco. NL Standing on another vent will take you off this one."
     ]
   },
-  "${modID}:YellowEcoVentPower": {
+  "${modID}:YellowVentPower": {
     "NAME": "[#ffff00]Yellow [#ffff00]Eco Vent",
     "DESCRIPTIONS": [
       "Provides a steady stream of [#ffff00]Yellow [#ffff00]Eco. NL Standing on another vent will take you off this one."
     ]
   },
-  "${modID}:DarkEcoVentPower": {
-    "NAME": "[#32004b]Dark [#32004b]Eco Vent",
+  "${modID}:RedEcoPower": {
+    "NAME": "[#ff0000]Red [#ff0000]Eco",
     "DESCRIPTIONS": [
-      "Provides a steady stream of [#32004b]Dark [#32004b]Eco. NL Standing on another vent will take you off this one."
+      "Increases damage on hit by #b"
     ]
   },
-  "${modID}:LightEcoVentPower": {
-    "NAME": "[#ffffff]Light [#ffffff]Eco Vent",
+  "${modID}:BlueEcoPower": {
+    "NAME": "[#0000ff]Blue [#0000ff]Eco",
     "DESCRIPTIONS": [
-      "Provides a steady stream of [#ffffff]Light [#ffffff]Eco. NL Standing on another vent will take you off this one."
+      "Provides #b",
+      " [E] per turn"
     ]
+  },
+  "${modID}:YellowEcoPower": {
+    "NAME": "[#ffff00]Yellow [#ffff00]Eco",
+    "DESCRIPTIONS": [
+      "Deals #b",
+      " piercing damage and removes #b1 #yMetallacize to a random enemy per stack when an #yAttack card is played."
+    ]
+  },
+  "${modID}:DarkEcoPower": {
+    "NAME": "[#32004b]Dark [#32004b]Eco",
+    "DESCRIPTIONS": [
+      "Provides #b1 [#32004b]Dark [#32004b]Eco when combat is won."
+    ]
+  },
+  "${modID}:LightEcoPower": {
+    "NAME": "[#ffffff]Light [#ffffff]Eco",
+    "DESCRIPTIONS": [
+      "Provides #b1 [#ffffff]Light [#ffffff]Eco when combat is won."
+    ]
+  },
+  "${modID}:VulcanFury": {
+    "NAME": "Vulcan Fury",
+    "DESCRIPTION": "When #yFire is played, deal damage to multiple enemies"
+  },
+  "${modID}:ArcWielder": {
+    "NAME": "Arc Wielder",
+    "DESCRIPTION": "When #yFire is played, deal damage and apply #yWeak to multiple enemies"
+  },
+  "${modID}:PeaceMaker": {
+    "NAME": "Peace Maker",
+    "DESCRIPTION": "When #yFire is played, deal damage to #b1 enemy"
+  },
+  "${modID}:SuperNova": {
+    "NAME": "Super Nova",
+    "DESCRIPTION": "When #yFire is played, deal damage to ALL enemies"
+  },
+  "${modID}:ScatterGun": {
+    "NAME": "Scatter Gun",
+    "DESCRIPTION": "When #yFire is played, deal damage to ALL enemies"
+  },
+  "${modID}:WaveConcussor": {
+    "NAME": "Wave Concussor",
+    "DESCRIPTION": "When #yFire is played, deal damage to ALL enemies"
+  },
+  "${modID}:Blaster": {
+    "NAME": "Blaster",
+    "DESCRIPTION": "When #yFire is played, deal damage to #b1 enemy"
+  },
+  "${modID}:BeamReflexor": {
+    "NAME": "Beam Reflexor",
+    "DESCRIPTION": "When #yFire is played, deal damage to multiple enemies"
   }
 }

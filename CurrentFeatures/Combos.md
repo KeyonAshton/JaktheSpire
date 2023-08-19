@@ -28,7 +28,7 @@ Each of these will deplete Dark Eco
 ## Light Eco Combos
 
 Each of these will decrease Light Eco by a substantial amount
-* Roll + Punch = Flash Freeze* (stuns all the enemies for 1-3 turns, balancing will decide)
+* Roll + Punch = Flash Freeze* (stuns all the enemies for 1-3 turns, might just give you an extra turn or two, balancing will decide)
 * Jump + Jump = Light Flight* (gives chance to evade attacks, more jumps = higher chance at decreasing gains, only lasts for that turn)
 * ? = Light Regeneration* (either heals based on amount of light eco, or gives Regen based on amount, depletes Light Eco)
 * Spin Kick = Light Shield* (replaces Spin Kick. gives intangible, but heavily drains light eco for each hit, gives thorns, also can't attack)

@@ -1,7 +1,7 @@
 package jakanddaxter.cards.defense;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.utility.NewQueueCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -18,7 +18,6 @@ import jakanddaxter.util.CardStats;
 
 public class Jump extends BaseCard {
 
-    private static int preblock;
     public static final String ID = makeID(Jump.class.getSimpleName());
     private static final CardStats info = new CardStats(
             TheSidekick.Enums.CARD_COLOR, //The card color. If you're making your own character, it'll look something like this. Otherwise, it'll be CardColor.RED or something similar for a basegame character color.
@@ -35,7 +34,6 @@ public class Jump extends BaseCard {
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(CardTags.STARTER_DEFEND);
-        preblock = baseBlock;
     }
 
     @Override
@@ -44,7 +42,6 @@ public class Jump extends BaseCard {
             upgradeName();
             upgradeBlock(2);
             upgradeMagicNumber(1);
-            preblock = preblock + 2;
         }
     }
 
@@ -55,9 +52,11 @@ public class Jump extends BaseCard {
             if (c.equals(Jump.ID)) {
                 name = cardStrings.EXTENDED_DESCRIPTION[0];
                 rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[1];
+                this.cardsToPreview = null;
             } else if (c.equals(Roll.ID)) {
                 name = cardStrings.EXTENDED_DESCRIPTION[2];
                 rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[3];
+                this.cardsToPreview = null;
             } else if (c.equals(Punch.ID)) {
                 name = cardStrings.NAME;
                 rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[4];
@@ -72,6 +71,7 @@ public class Jump extends BaseCard {
             rawDescription = cardStrings.DESCRIPTION;
             this.cardsToPreview = null;
         }
+        initializeDescription();
     }
 
     @Override
@@ -103,26 +103,22 @@ public class Jump extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        addToTop(new GainBlockAction(p, p, this.block));
         boolean h = AbstractDungeon.actionManager.cardsPlayedThisTurn.size() >= 2;
         if (h) {
             int c = AbstractDungeon.actionManager.cardsPlayedThisTurn.size() - 2;
 
             if (AbstractDungeon.actionManager.cardsPlayedThisTurn.get(c).cardID.equals(Jump.ID)) {
                 if ((AbstractDungeon.actionManager.cardsPlayedThisTurn.get(AbstractDungeon.actionManager.cardsPlayedThisTurn.size() - 2)).upgraded) {
-                    this.block++;
+                    this.magicNumber++;
                 }
-                this.block = this.block + this.magicNumber;
-                addToTop(new GainBlockAction(p, p, this.block));
+                addToTop(new GainBlockAction(p, p, this.magicNumber));
             } else if (AbstractDungeon.actionManager.cardsPlayedThisTurn.get(c).cardID.equals(Roll.ID)) {
-                addToTop(new GainBlockAction(p, p, this.block));
-                addToTop(new DamageAction(AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng), new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+                addToTop(new DamageRandomEnemyAction(new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
             } else if (AbstractDungeon.actionManager.cardsPlayedThisTurn.get(c).cardID.equals(Punch.ID)) {
-                addToTop(new GainBlockAction(p, p, this.block));
                 Uppercut upperCut = new Uppercut();
                 addToTop(new NewQueueCardAction(upperCut, AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng), true, true));
             }
-        } else {
-            addToTop(new GainBlockAction(p, p, this.block));
         }
     }
 
@@ -131,7 +127,4 @@ public class Jump extends BaseCard {
         this.damage = this.baseDamage;
     }
 
-    public AbstractCard makeCopy() {
-        return new Jump();
-    }
 }

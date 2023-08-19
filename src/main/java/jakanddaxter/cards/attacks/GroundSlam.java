@@ -51,7 +51,4 @@ public class GroundSlam extends BaseCard {
         addToBot(new DamageAction(AbstractDungeon.getMonsters().getMonster(m.id), new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
     }
 
-    public AbstractCard makeCopy() {
-        return new GroundSlam();
-    }
 }

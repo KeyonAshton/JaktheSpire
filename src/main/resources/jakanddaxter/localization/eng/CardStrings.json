@@ -1,49 +1,57 @@
 {
   "${modID}:GreenEcoCard": {
-    "NAME": "Small [#00ff00]Green [#00ff00]Eco",
-    "DESCRIPTION": "${modID}:Eco NL Supplies !M! small [#00ff00]Green [#00ff00]Eco. NL ${modID}:Upgrades 3",
+    "NAME": "[#00ff00]Green [#00ff00]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! little [#00ff00]Green [#00ff00]Eco NL ${modID}:Upgrades 3",
     "EXTENDED_DESCRIPTION": [
-      "More Little [#00ff00]Green [#00ff00]Eco",
-      "${modID}:Eco NL Supplies !M! small [#00ff00]Green [#00ff00]Eco. NL ${modID}:Upgrades 2",
+      "[#00ff00]Green [#00ff00]Eco",
+      "${modID}:Eco NL Supplies !M! little [#00ff00]Green [#00ff00]Eco NL ${modID}:Upgrades 2",
       "A Big [#00ff00]Green [#00ff00]Eco",
-      "${modID}:Eco NL Supplies 1 big [#00ff00]Green [#00ff00]Eco. NL ${modID}:Upgrades 1",
+      "${modID}:Eco NL Supplies 1 big [#00ff00]Green [#00ff00]Eco NL ${modID}:Upgrades 1",
       "[#00ff00]Green [#00ff00]Eco Vent",
       "${modID}:Eco_Vent NL Stand atop a [#00ff00]Green [#00ff00]Eco vent"
       ]
   },
   "${modID}:RedEcoCard": {
-    "NAME": "Some [#ff0000]Red [#ff0000]Eco",
-    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco. NL ${modID}:Upgrades 2",
+    "NAME": "[#ff0000]Red [#ff0000]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco NL ${modID}:Upgrades 2",
     "EXTENDED_DESCRIPTION": [
-      "More [#ff0000]Red [#ff0000]Eco",
-      "${modID}:Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco. NL ${modID}:Upgrades 1",
+      "[#ff0000]Red [#ff0000]Eco",
+      "${modID}:Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco NL ${modID}:Upgrades 1",
       "[#ff0000]Red [#ff0000]Eco Vent",
       "${modID}:Eco_Vent NL Stand atop a [#ff0000]Red [#ff0000]Eco vent"
     ]
   },
   "${modID}:BlueEcoCard": {
-    "NAME": "Some [#0000ff]Blue [#0000ff]Eco",
-    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco. NL ${modID}:Upgrades 2",
+    "NAME": "[#0000ff]Blue [#0000ff]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco NL ${modID}:Upgrades 2",
     "EXTENDED_DESCRIPTION": [
-      "More [#0000ff]Blue [#ff0000]Eco",
-      "${modID}:Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco. NL ${modID}:Upgrades 1",
+      "[#0000ff]Blue [#ff0000]Eco",
+      "${modID}:Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco NL ${modID}:Upgrades 1",
       "[#0000ff]Blue [#0000ff]Eco Vent",
       "${modID}:Eco_Vent NL Stand atop a [#0000ff]Blue [#0000ff]Eco vent"
     ]
   },
   "${modID}:YellowEcoCard": {
-    "NAME": "Some [#ffff00]Yellow [#ffff00]Eco",
-    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco. NL ${modID}:Upgrades 2",
+    "NAME": "[#ffff00]Yellow [#ffff00]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco NL ${modID}:Upgrades 2",
     "EXTENDED_DESCRIPTION": [
-      "More [#ffff00]Yellow [#ffff00]Eco",
-      "${modID}:Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco. NL ${modID}:Upgrades 1",
+      "[#ffff00]Yellow [#ffff00]Eco",
+      "${modID}:Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco NL ${modID}:Upgrades 1",
       "[#ffff00]Yellow [#ffff00]Eco Vent",
       "${modID}:Eco_Vent NL Stand atop a [#ffff00]Yellow [#ffff00]Eco vent"
     ]
   },
+  "${modID}:DarkEcoCard": {
+    "NAME": "[#500064]Dark [#500064]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies 3 [#500064]Dark [#500064]Eco"
+  },
+  "${modID}:LightEcoCard": {
+    "NAME": "[#82dcdc]Light [#82dcdc]Eco",
+    "DESCRIPTION": "${modID}:Eco NL Supplies 3 [#82dcdc]Light [#82dcdc]Eco"
+  },
   "${modID}:Punch": {
     "NAME": "Punch",
-    "DESCRIPTION": "${modID}:Combo NL Deal !D! damage.",
+    "DESCRIPTION": "${modID}:Combo NL Deal !D! damage",
     "EXTENDED_DESCRIPTION": [
       " NL Play *Ground *Slam",
       " NL Play *Uppercut"
@@ -59,11 +67,11 @@
   },
   "${modID}:GroundSlam": {
     "NAME": "Ground Slam",
-    "DESCRIPTION": "Deal !D! damage."
+    "DESCRIPTION": "Deal !D! damage"
   },
   "${modID}:Uppercut": {
     "NAME": "Uppercut",
-    "DESCRIPTION": "${modID}:Combo NL Deal !D! damage."
+    "DESCRIPTION": "${modID}:Combo NL Deal !D! damage"
   },
   "${modID}:Jump": {
     "NAME": "Jump",
@@ -75,5 +83,98 @@
       " NL Deal !D! to a random enemy",
       " NL Play *Uppercut on a random enemy"
     ]
+  },
+  "${modID}:BlueAmmoCard": {
+    "NAME": "Blue Ammo",
+    "DESCRIPTION": "Supplies !M! Blue Ammo",
+    "EXTENDED_DESCRIPTION": [
+      "*Innate NL "
+    ]
+  },
+  "${modID}:PurpleAmmoCard": {
+    "NAME": "Purple Ammo",
+    "DESCRIPTION": "Supplies !M! Purple Ammo",
+    "EXTENDED_DESCRIPTION": [
+      "*Innate NL "
+    ]
+  },
+  "${modID}:RedAmmoCard": {
+    "NAME": "Red Ammo",
+    "DESCRIPTION": "Supplies !M! Red Ammo",
+    "EXTENDED_DESCRIPTION": [
+      "*Innate NL "
+    ]
+  },
+  "${modID}:YellowAmmoCard": {
+    "NAME": "Yellow Ammo",
+    "DESCRIPTION": "Supplies !M! Yellow Ammo",
+    "EXTENDED_DESCRIPTION": [
+      "*Innate NL "
+    ]
+  },
+  "${modID}:DarkForm": {
+    "NAME": "Dark Form",
+    "DESCRIPTION": "Requires 1 [#500064]Dark [#500064]Eco NL Activates [#500064]Dark [#500064]Form"
+  },
+  "${modID}:LightForm": {
+    "NAME": "Light Form",
+    "DESCRIPTION": "Requires 1 [#82dcdc]Light [#82dcdc]Eco NL Activates [#82dcdc]Light [#82dcdc]Form"
+  },
+  "${modID}:BlueMorphMode": {
+    "NAME": "Vulcan Fury",
+    "DESCRIPTION": "Fires a volley of shots",
+    "EXTENDED_DESCRIPTION": [
+      "Arc Wielder",
+      " that apply *Weak"
+    ]
+  },
+  "${modID}:PurpleMorphMode": {
+    "NAME": "Peace Maker",
+    "DESCRIPTION": "Fires a high power ",
+    "EXTENDED_DESCRIPTION": [
+      "shot",
+      "Super Nova",
+      "AoE blast"
+    ]
+  },
+  "${modID}:RedMorphMode": {
+    "NAME": "Scatter Gun",
+    "DESCRIPTION": "Fires a",
+    "EXTENDED_DESCRIPTION": [
+      "n AoE blast",
+      "Wave Concussor",
+      " big AoE blast"
+    ]
+  },
+  "${modID}:YellowMorphMode": {
+    "NAME": "Blaster",
+    "DESCRIPTION": "Fires a ",
+    "EXTENDED_DESCRIPTION": [
+      "single shot",
+      "Beam Reflexor",
+      "bouncing shot"
+    ]
+  },
+  "${modID}:Fire": {
+    "NAME": "Fire",
+    "DESCRIPTION": "Acts differently based on ${modID}:Morph_Gun played",
+    "EXTENDED_DESCRIPTION": [
+      "Deal !D! damage to ALL enemies",
+      "${modID}:Combo NL Deal !D! damage to an enemy",
+      "Deal !D! damage to an enemy, and again to a random enemy",
+      "Deal !D! damage to 3 random enemies",
+      "Deal !D! damage and applies *Weak to 3 random enemies",
+      "Deal !D! damage to an enemy",
+      " NL Play *Wastelander *Punch on targeted enemy !M! times",
+      " NL Play *Wastelander *Spin !M! random enemies"
+    ]
+  },
+  "${modID}:WastelanderSpin": {
+    "NAME": "Wastelander Spin",
+    "DESCRIPTION": "${modID}:Combo NL Deals !D! to !M! random enemies"
+  },
+  "${modID}:WastelanderPunch": {
+    "NAME": "Wastelander Punch",
+    "DESCRIPTION": "${modID}:Combo NL Deals !D! to the shot enemy"
   }
 }

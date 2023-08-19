@@ -85,7 +85,7 @@
       "Dark_Form",
       "dark_form"
     ],
-    "DESCRIPTION": "Decreases damage by half, and gives access to high damage attacks"
+    "DESCRIPTION": "Decreases damage by half, and gives access to high damage attacks NL Can not use the #yMorph #yGun, #yJet #yBoard or a #yZoomer"
   },
   {
     "PROPER_NAME": "Light Eco",
@@ -99,7 +99,7 @@
       "Light_Ecos",
       "light_ecos"
     ],
-    "DESCRIPTION": "[#82dcdc]Light [#82dcdc]Eco can be used to activate Light form, giving access to high powered defensive abilities NL Using guns decreases Light Eco while in Light form"
+    "DESCRIPTION": "[#82dcdc]Light [#82dcdc]Eco can be used to activate [#82dcdc]Light [#82dcdc]Form"
   },
   {
     "PROPER_NAME": "Light Form",
@@ -109,7 +109,7 @@
       "Light_Form",
       "light_form"
     ],
-    "DESCRIPTION": "Gives access to high defense skills NL Guns decrease [#82dcdc]Light [#82dcdc]Eco while in this form"
+    "DESCRIPTION": "Gives access to high defense skills NL Guns decrease [#82dcdc]Light [#82dcdc]Eco while in this form NL Can not use a #yJet #yBoard or a #yZoomer"
   },
   {
     "PROPER_NAME": "Eco Vent",
